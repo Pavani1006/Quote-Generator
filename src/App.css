@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Poppins:wght@200;300;500&family=Varela+Round&family=Ysabeau+Infant&display=swap');
+body{
+  padding: 0%;
+  margin: 0%;
+}
+.App{
+  background: linear-gradient(rgba(0, 0 ,0,0.5),rgba(0, 0, 0, 0.5)),url('./img.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-family: 'Varela Round', sans-serif;
+}
+.Quote{
+  background: rgb(248, 243, 243);
+  width: 35%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.119);
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.span{
+  font-size: 15px;
+  
+}
+.button{
+  background: #2c2929;
+  padding:15px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-size: 17px;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
